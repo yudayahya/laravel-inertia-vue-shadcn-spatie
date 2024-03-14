@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
-import { Button } from '@/Components/ui/button';
 
 defineProps<{
     canLogin?: boolean;
@@ -83,8 +82,6 @@ defineProps<{
                             <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">
                                 Documentation
                             </h2>
-
-                            <Button>Click me</Button>
 
                             <p
                                 class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed"
